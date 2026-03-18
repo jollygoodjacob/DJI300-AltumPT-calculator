@@ -11,10 +11,9 @@ This repository provides an Excel and Shiny-based tool for estimating UAV mappin
 - Adjustable mission parameters (altitude, speed, overlap, flight time, bands)
 
 ### Repository Contents
-- dji_m300_altum_coverage_calculator_v2.xlsx
-- app_v2.R
-- dji_m300_altum_calculator_bundle_v2.zip
-- README.txt
+- DJIM300-Altum-calculator.xlsx
+- DJIM300-Altum-calculator.R
+- README.md
 
 ### Key Calculations
 - Footprint derived from altitude and sensor FOV
@@ -34,7 +33,7 @@ This repository provides an Excel and Shiny-based tool for estimating UAV mappin
 Install and run in R:
 ```
 install.packages("shiny")
-shiny::runApp("app_v2.R")
+shiny::runApp("DJIM300-Altum-calculator.R")
 ```
 ### Use Cases
 - Ecological UAV surveys
