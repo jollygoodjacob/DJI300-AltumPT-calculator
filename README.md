@@ -34,6 +34,7 @@ This repository provides an Excel and Shiny-based tool for estimating UAV mappin
 Install and run in R:
 
 install.packages("shiny")
+
 shiny::runApp("app_v2.R")
 
 ### Use Cases
@@ -50,6 +51,7 @@ shiny::runApp("app_v2.R")
 
 ### Author
 Jacob Nesslage
+
 PhD Candidate, UC Merced
 
 ### License
