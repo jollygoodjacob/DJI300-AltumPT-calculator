@@ -32,11 +32,10 @@ This repository provides an Excel and Shiny-based tool for estimating UAV mappin
 
 ### Shiny Usage
 Install and run in R:
-
+```
 install.packages("shiny")
-
 shiny::runApp("app_v2.R")
-
+```
 ### Use Cases
 - Ecological UAV surveys
 - Floodplain and riparian mapping
